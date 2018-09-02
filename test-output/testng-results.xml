@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="16034" started-at="2018-09-01T04:11:25Z" finished-at="2018-09-01T04:11:41Z">
+    <groups>
+    </groups>
+    <test name="leads" duration-ms="16034" started-at="2018-09-01T04:11:25Z" finished-at="2018-09-01T04:11:41Z">
+      <class name="tests.TC001_CreateLead">
+        <test-method status="PASS" signature="startResult()[pri:0, instance:tests.TC001_CreateLead@1a5fe33]" name="startResult" is-config="true" duration-ms="349" started-at="2018-09-01T04:11:24Z" finished-at="2018-09-01T04:11:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startResult -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:tests.TC001_CreateLead@1a5fe33]" name="setData" is-config="true" duration-ms="0" started-at="2018-09-01T04:11:25Z" finished-at="2018-09-01T04:11:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="startTestCase()[pri:0, instance:tests.TC001_CreateLead@1a5fe33]" name="startTestCase" is-config="true" duration-ms="0" started-at="2018-09-01T04:11:25Z" finished-at="2018-09-01T04:11:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TC001_CreateLead@1a5fe33]" name="login" is-config="true" duration-ms="8431" started-at="2018-09-01T04:11:25Z" finished-at="2018-09-01T04:11:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="createLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TC001_CreateLead@1a5fe33]" name="createLead" duration-ms="6130" started-at="2018-09-01T04:11:34Z" data-provider="fetchData" finished-at="2018-09-01T04:11:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Qeagle]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Babu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[babu@testleaf.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="close()[pri:0, instance:tests.TC001_CreateLead@1a5fe33]" name="close" is-config="true" duration-ms="743" started-at="2018-09-01T04:11:40Z" finished-at="2018-09-01T04:11:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="stopResult()[pri:0, instance:tests.TC001_CreateLead@1a5fe33]" name="stopResult" is-config="true" duration-ms="332" started-at="2018-09-01T04:11:41Z" finished-at="2018-09-01T04:11:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopResult -->
+      </class> <!-- tests.TC001_CreateLead -->
+    </test> <!-- leads -->
+  </suite> <!-- Suite -->
+</testng-results>
